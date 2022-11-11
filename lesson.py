@@ -13,9 +13,9 @@ class Phone:
 		print(f'Звонит {name}')
 	def getNumber(self):
 		return self.number
-Phone1 = Phone('01', 'Iphone', 150)
-Phone2 = Phone('02', 'Samsung', 160)
-Phone3 = Phone('03', 'Xiaomi', 170)
+Phone1 = Phone('013', 'Iphone', 150)
+Phone2 = Phone('022', 'Samsung', 160)
+Phone3 = Phone('031', 'Xiaomi', 170)
 Phone1.reseiveCall('Олег'); print(Phone1.getNumber())
 Phone2.reseiveCall('Степа'); print(Phone2.getNumber())
 Phone3.reseiveCall('Паша'); print(Phone2.getNumber())
